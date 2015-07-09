@@ -8,6 +8,20 @@ Required tools
 
 Execution
 ```bash
-asciidump2svg CELL_NAME GDS_FILE
+asciidump2svg GDS_FILE
 ```
 
+
+Main usage example:
+```bash
+asciidump2svg samples/INV_X1.gds
+```
+
+Extra example using [gds2ascii](https://github.com/leoheck/gds2ascii):
+```bash
+gds2svg samples/INV_X1.gds
+```
+
+The output should be an .svg file like this:
+
+<img src="https://cdn.rawgit.com/leoheck/asciidump2svg/master/samples/INV_X1.svg" alt="INV_X1" style="width: 400px;"/>
