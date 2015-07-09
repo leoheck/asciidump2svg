@@ -14,11 +14,13 @@ asciidump2svg GDS_FILE
 
 Main usage example:
 ```bash
+source setup-env.sh
 asciidump2svg samples/INV_X1.gds
 ```
 
 Extra example using [gds2ascii](https://github.com/leoheck/gds2ascii):
 ```bash
+source setup-env.sh
 gds2svg samples/INV_X1.gds
 ```
 
