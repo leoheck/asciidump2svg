@@ -1,0 +1,110 @@
+Begin Library
+Library Name : , Library Name : mylib,  DB units per user unit =1000000
+Begin Cell Definition
+Cell Name : INV_X1Sø9"\ÐM­*
+Polygon - Layer : 3  Data Type : 0  No of points : 5
+ (-115,590) (495,590) (495,1515) (-115,1515)
+ (-115,590)
+Polygon - Layer : 2  Data Type : 0  No of points : 5
+ (-115,-115) (495,-115) (495,590) (-115,590)
+ (-115,-115)
+Polygon - Layer : 4  Data Type : 0  No of points : 5
+ (-25,-25) (405,-25) (405,590) (-25,590)
+ (-25,-25)
+Polygon - Layer : 5  Data Type : 0  No of points : 5
+ (-25,590) (405,590) (405,1425) (-25,1425)
+ (-25,590)
+Polygon - Layer : 1  Data Type : 0  No of points : 5
+ (40,680) (300,680) (300,1310) (40,1310)
+ (40,680)
+Polygon - Layer : 1  Data Type : 0  No of points : 5
+ (40,90) (300,90) (300,505) (40,505)
+ (40,90)
+Polygon - Layer : 9  Data Type : 0  No of points : 9
+ (95,555) (145,555) (145,40) (195,40)
+ (195,1360) (145,1360) (145,630) (95,630)
+ (95,555)
+Polygon - Layer : 10  Data Type : 0  No of points : 5
+ (230,1150) (295,1150) (295,1215) (230,1215)
+ (230,1150)
+Polygon - Layer : 10  Data Type : 0  No of points : 5
+ (230,1010) (295,1010) (295,1075) (230,1075)
+ (230,1010)
+Polygon - Layer : 10  Data Type : 0  No of points : 5
+ (230,325) (295,325) (295,390) (230,390)
+ (230,325)
+Polygon - Layer : 10  Data Type : 0  No of points : 5
+ (230,185) (295,185) (295,250) (230,250)
+ (230,185)
+Polygon - Layer : 10  Data Type : 0  No of points : 5
+ (100,560) (165,560) (165,625) (100,625)
+ (100,560)
+Polygon - Layer : 10  Data Type : 0  No of points : 5
+ (45,1150) (110,1150) (110,1215) (45,1215)
+ (45,1150)
+Polygon - Layer : 10  Data Type : 0  No of points : 5
+ (45,1010) (110,1010) (110,1075) (45,1075)
+ (45,1010)
+Polygon - Layer : 10  Data Type : 0  No of points : 5
+ (45,325) (110,325) (110,390) (45,390)
+ (45,325)
+Polygon - Layer : 10  Data Type : 0  No of points : 5
+ (45,185) (110,185) (110,250) (45,250)
+ (45,185)
+Polygon - Layer : 11  Data Type : 0  No of points : 9
+ (0,-85) (380,-85) (380,85) (110,85)
+ (110,425) (40,425) (40,85) (0,85)
+ (0,-85)
+Polygon - Layer : 11  Data Type : 0  No of points : 9
+ (0,1315) (40,1315) (40,975) (110,975)
+ (110,1315) (380,1315) (380,1485) (0,1485)
+ (0,1315)
+Polygon - Layer : 11  Data Type : 0  No of points : 5
+ (230,150) (325,150) (325,1250) (230,1250)
+ (230,150)
+Polygon - Layer : 11  Data Type : 0  No of points : 5
+ (60,525) (165,525) (165,700) (60,700)
+ (60,525)
+Text - Layer : 11  No of points : 1
+ (285,630)
+Text - Layer : 11  No of points : 1
+ (190,-85)
+Text - Layer : 11  No of points : 1
+ (190,1485)
+Text - Layer : 11  No of points : 1
+ (95,630)
+Polygon - Layer : 11  Data Type : 0  No of points : 9
+ (0,1315) (40,1315) (40,975) (110,975)
+ (110,1315) (380,1315) (380,1485) (0,1485)
+ (0,1315)
+Polygon - Layer : 11  Data Type : 0  No of points : 9
+ (0,-85) (380,-85) (380,85) (110,85)
+ (110,425) (40,425) (40,85) (0,85)
+ (0,-85)
+Polygon - Layer : 11  Data Type : 0  No of points : 5
+ (230,150) (325,150) (325,1250) (230,1250)
+ (230,150)
+Polygon - Layer : 11  Data Type : 0  No of points : 5
+ (60,525) (165,525) (165,700) (60,700)
+ (60,525)
+Polygon - Layer : 0  Data Type : 0  No of points : 5
+ (0,0) (380,0) (380,1400) (0,1400)
+ (0,0)
+Text - Layer : 63  No of points : 1
+ (0,0)
+Text - Layer : 63  No of points : 1
+ (0,0)
+Text - Layer : 63  No of points : 1
+ (0,0)
+Text - Layer : 63  No of points : 1
+ (0,0)
+Text - Layer : 230  No of points : 1
+ (0,-85)
+Text - Layer : 230  No of points : 1
+ (0,975)
+Text - Layer : 230  No of points : 1
+ (230,150)
+Text - Layer : 230  No of points : 1
+ (60,525)
+End Cell Definition
+End Library

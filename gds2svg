@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# Authors: Carlos Oliveira e Leandro Heck
+# Porto Alegre, 2014 - Developed at GAPH @ PUCRS
+# Contact: carlos.oliveira.004@acad.pucrs.br
+#
+#: Example usage:
+#: ./run GDS_FILE
+
+if [ "$#" -lt "1" ]; then
+	egrep '^#:' $(which "$0")
+	exit 1
+fi
+
+gdsfile=$1
+filename=$(basename "$gdsfile")
+filename="${filename%.*}"
+
+asciidumpfile=${filename}.asciidump
+svgfile=${filename}.svg
+
+# echo $gdsfile
+# echo $filename
+# echo $asciidumpfile
+# echo $svgfile
+
+# Convert GDS 2 ASCII Dump
+gds2ascii $gdsfile > $asciidumpfile
+
+# Convert ASCII Dump to SVG 
+asciidump2svg $asciidumpfile $svgfile
+
+# Fit the design 
+inkscape --verb=FitCanvasToDrawing --verb=ZoomPage --verb=FileSave --verb=FileQuit -f $svgfile 2> /dev/null
