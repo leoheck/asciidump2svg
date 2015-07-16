@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ASCIIDUMP_FILE=$1
+
+grep Layer ${ASCIIDUMP_FILE} | cut -d':' -f2 | sort -n -b | uniq -c

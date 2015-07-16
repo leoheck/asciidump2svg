@@ -30,5 +30,33 @@ gds2ascii $gdsfile > $asciidumpfile
 # Convert ASCII Dump to SVG 
 asciidump2svg $asciidumpfile $svgfile
 
-# Fit the design 
-inkscape --verb=FitCanvasToDrawing --verb=ZoomPage --verb=FileSave --verb=FileQuit -f $svgfile 2> /dev/null
+# Fit the design canvas
+inkscape --verb=FitCanvasToDrawing --verb=ZoomPage --verb=FileSave --verb=FileQuit $svgfile 2> /dev/null
+
+
+#=================================================================
+# HOW to merge the PP+OD and NP+OD layes to produce P_ACTIVE and N_ACTIVE?
+
+# # Pega o numero de layers PP
+# PP_LAYERS_IDS=$(grep 'pp"' $svgfile -A 2 | grep id | cut -d'"' -f2)
+# PP_LAYERS=$(echo $PP_LAYERS_IDS | wc -l)
+# # Pega o numero de layers NP
+# NP_LAYERS_IDS=$(grep 'np"' $svgfile -A 2 | grep id | cut -d'"' -f2)
+# NP_LAYERS=$(echo $NP_LAYERS_IDS | wc -l)
+
+# XP_LAYERS_IDS=$(echo -e "$NP_LAYERS_IDS\n$PP_LAYERS_IDS")
+# XP_LAYERS=$((PP_LAYERS+NP_LAYERS))
+
+# # Pega o numero de layers OD
+# OD_LAYERS_IDS=$(grep 'od"' $svgfile -A 2 | grep id | cut -d'"' -f2)
+# OD_LAYERS=$(echo $OD_LAYERS_IDS | wc -l)
+
+# # echo -e "$XP_LAYERS_IDS"
+# # echo -e "$OD_LAYERS_IDS"
+
+# for i in $OD_LAYERS_IDS; do
+# 	for x in $XP_LAYERS_IDS; do
+# 		echo "Duplicating $x" 
+# 		inkscape --select="${x}" --verb=EditDuplicate --verb=LayerRename ID="LALALA" --verb=FileSave --verb=FileQuit -f $svgfile 2> /dev/null
+# 	done
+# done
